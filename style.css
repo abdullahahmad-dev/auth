@@ -1,0 +1,105 @@
+@import url("https://fonts.cdnfonts.com/css/blang-haloc");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #ffafcc; /* لون رئيسي */
+  --secondary-color: #915cb7; /* لون ثانوي */
+  --accent-color: #a2d2ff; /* لون تحديد اللون */
+  --border-top-color: #4996d6;
+}
+@font-face {
+  font-family: "Blang-Haloc";
+  src: url("Blang\ Haloc.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+    background: linear-gradient(
+        to bottom,
+        var(--accent-color) 50%,
+        var(--main-color) 50%
+      );
+    margin: 15px;
+    height: 100vh;
+    background-size: 100% 400%; /* تحديد حجم الخلفية بنسبة 100% للعرض و 100% للارتفاع */
+  }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-top: 200px;
+}
+
+.left-box {
+  flex: 1;
+  padding: 50px;
+}
+
+.right-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-box p {
+  text-align: left;
+  font-family: "Blang-Haloc";
+  font-size: 22px;
+  color: var(--border-top-color);
+}
+video {
+  width: 104%;
+  height: auto;
+  margin-left: -30px;
+  border-radius: 15px;
+  margin-top: -30px;
+}
+
+h2 {
+  text-align: left;
+  font-family: "Blang-Haloc";
+  color: #4996d6;
+}
+
+header {
+  font-family: "Roboto Slab";
+  padding: 20px; /* التباعد الداخلي للنص */
+   /* أقصى عرض يمكن للعنصر أن يأخذه */
+  background-color: #ffafcc;
+  border-radius: 20px;
+  text-align: center;
+  
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+   padding-top: 20px; 
+}
+
+article p{
+    text-align: center;
+    font-family: "Blang-Haloc";
+    color: #4996d6;
+    font-size: 72px;
+      margin-top: 1133px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  margin-top: 350px;
+}
+
+h3{
+    margin-top: 240px;
+}
+h3 img{
+    margin-left: 200px;
+}
